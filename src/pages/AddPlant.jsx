@@ -1,51 +1,47 @@
 import {
-  Card,
-  Button,
   Stack,
   HStack,
-  Input,
-  Field,
   Box,
   FileUpload,
   Icon,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useForm } from "react-hook-form";
 import { LuUpload } from "react-icons/lu";
 import FieldForm from "../components/layout/FieldForm";
 import ButtonCustom from "../components/layout/ButtonCustom";
+import TextInput from "../components/layout/TextInput";
+import NumericInput from "../components/layout/NumberInput";
+import DateInput from "../components/layout/DateInput";
 
 const AddPlant = ({ onAddPlant, onClose }) => {
-  const [formData, setFormData] = useState({
-    nickname: "",
-    species: "",
-    plantedAt: "",
-    wateringFrequency: 7,
-    imageUrl: "",
+  const { 
+    register, 
+    handleSubmit, 
+    formState: { errors, isDirty }, 
+    setValue,
+    watch 
+  } = useForm({
+    defaultValues: {
+      nickname: "",
+      species: "",
+      plantedAt: new Date().toISOString().split('T')[0],
+      wateringFrequency: 7,
+      imageUrl: "",
+    },
   });
 
-  const handleInputChange = (field, value) => {
-    setFormData((prev) => ({
-      ...prev,
-      [field]: value,
-    }));
-  };
+  const imageUrl = watch("imageUrl");
 
-  const handleSubmit = () => {
-    // Validar que al menos nombre o especie estén presentes
-    if (!formData.nickname && !formData.species) {
-      alert("Por favor ingresa al menos un nombre o especie");
-      return;
-    }
-
+  const onSubmit = (data) => {
     // Preparar datos con valores por defecto
     const plantData = {
-      species: formData.species || formData.nickname,
-      imageUrl: formData.imageUrl || "https://via.placeholder.com/400?text=Plant",
+      species: data.species || data.nickname,
+      imageUrl: data.imageUrl || "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?q=80&w=400",
       category: "Custom Plant",
       stats: {
-        plantedAt: formData.plantedAt || new Date().toISOString().split('T')[0],
+        plantedAt: data.plantedAt,
         lastWatered: new Date().toISOString(),
-        wateringFrequency: formData.wateringFrequency || 7,
+        wateringFrequency: parseInt(data.wateringFrequency) || 7,
       },
       requirements: {
         minTemp: 10,
@@ -58,74 +54,93 @@ const AddPlant = ({ onAddPlant, onClose }) => {
     onClose();
   };
 
+  const handleFileChange = (e) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        setValue("imageUrl", event.target?.result, { shouldDirty: true });
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   return (
-    <Stack gap="4" w="full">
-      <FileUpload.Root maxW="xl" alignItems="stretch" maxFiles={1}>
-        <FileUpload.HiddenInput
-          onChange={(e) => {
-            const file = e.target.files?.[0];
-            if (file) {
-              const reader = new FileReader();
-              reader.onload = (event) => {
-                handleInputChange(
-                  "imageUrl",
-                  event.target?.result
-                );
-              };
-              reader.readAsDataURL(file);
-            }
-          }}
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <Stack gap="4" w="full">
+        <FileUpload.Root maxW="xl" alignItems="stretch" maxFiles={1}>
+          <FileUpload.HiddenInput onChange={handleFileChange} />
+          <FileUpload.Dropzone
+            bg="brand.900"
+            borderRadius="md"
+            border="2px dashed"
+            borderColor={imageUrl ? "brand.500" : "brand.600"}
+            p="4"
+            transition="all 0.3s ease"
+            _hover={{ borderColor: "brand.500", bg: "brand.800/40" }}
+          >
+            <Icon size="md" color={imageUrl ? "brand.500" : "fg.muted"}>
+              <LuUpload />
+            </Icon>
+            <FileUpload.DropzoneContent>
+              <Box color="text.secondary">
+                {imageUrl ? "Image uploaded!" : "Upload photo"}
+              </Box>
+              <Box color="brandTertiary.900" fontSize="xs">
+                .png, .jpg up to 5MB
+              </Box>
+            </FileUpload.DropzoneContent>
+          </FileUpload.Dropzone>
+          <FileUpload.List />
+        </FileUpload.Root>
+
+        <FieldForm label="Name / Nickname" error={errors.nickname}>
+          <TextInput 
+            placeholder="e.g. My Favorite Fern"
+            {...register("nickname", { 
+              required: "Please enter a name or species",
+              minLength: { value: 2, message: "Name is too short" }
+            })} 
+          />
+        </FieldForm>
+
+        <FieldForm label="Scientific name" error={errors.species}>
+          <TextInput 
+            placeholder="e.g. Nephrolepis exaltata"
+            {...register("species")} 
+          />
+        </FieldForm>
+
+        <HStack spacing="4" w="full" align="flex-start">
+          <Box flex="1">
+            <FieldForm label="Date of birth" error={errors.plantedAt}>
+              <DateInput 
+                {...register("plantedAt", { required: "Date is required" })} 
+              />
+            </FieldForm>
+          </Box>
+          <Box flex="1">
+            <FieldForm label="Water (days)" error={errors.wateringFrequency}>
+              <NumericInput 
+                placeholder="7"
+                {...register("wateringFrequency", { 
+                  required: "Frequency is required",
+                  min: { value: 1, message: "Must be at least 1 day" }
+                })} 
+              />
+            </FieldForm>
+          </Box>
+        </HStack>
+
+        <ButtonCustom 
+          variant="primary" 
+          textValue="Add to garden" 
+          width="full"
+          disabled={!isDirty}
+          type="submit"
         />
-        <FileUpload.Dropzone
-          bg="brand.900"
-          borderRadius="md"
-          border="2px dashed"
-          borderColor="brand.600"
-          p="4"
-        >
-          <Icon size="md" color="fg.muted">
-            <LuUpload />
-          </Icon>
-          <FileUpload.DropzoneContent>
-            <Box color="text.secondary">Upload photo</Box>
-            <Box color="brandTertiary.900">.png, .jpg up to 5MB</Box>
-          </FileUpload.DropzoneContent>
-        </FileUpload.Dropzone>
-        <FileUpload.List />
-      </FileUpload.Root>
-      <FieldForm
-        label="Name / Nickname"
-        placeholder="Echeveria"
-        type="text"
-        value={formData.nickname}
-        onChange={(e) => handleInputChange("nickname", e.target.value)}
-      />
-      <FieldForm
-        label="Scientific name"
-        placeholder="Echeveria Elegans"
-        type="text"
-        value={formData.species}
-        onChange={(e) => handleInputChange("species", e.target.value)}
-      />
-      <HStack spacing="4" w="full">
-        <FieldForm
-          label="Date of birth"
-          type="date"
-          value={formData.plantedAt}
-          onChange={(e) => handleInputChange("plantedAt", e.target.value)}
-        />
-        <FieldForm
-          label="Water frequency (days)"
-          placeholder="7"
-          type="number"
-          value={formData.wateringFrequency}
-          onChange={(e) =>
-            handleInputChange("wateringFrequency", parseInt(e.target.value) || 7)
-          }
-        />
-      </HStack>
-      <ButtonCustom type="primary" textValue="Add to garden" onClick={handleSubmit} />
-    </Stack>
+      </Stack>
+    </form>
   );
 };
 

@@ -72,7 +72,7 @@ const PlantCard = (plant) => {
 
       <Card.Footer>
         <ButtonCustom 
-          type="primary" 
+          variant="primary" 
           textValue="View Details" 
           onClick={() => navigate(`/plant/${plant.apiId}`)}
         />

@@ -24,7 +24,7 @@ const PlantDialog = () => {
     <Dialog.Root open={open} onOpenChange={(e) => e.open ? onOpen() : onClose()}>
       <Dialog.Trigger asChild>
         <div onClick={onOpen}>
-          <ButtonCustom type="primary" textValue="+ Add Plant" width="8rem" />
+          <ButtonCustom variant="primary" textValue="+ Add Plant" width="8rem" />
         </div>
       </Dialog.Trigger>
       <Portal>
@@ -64,7 +64,7 @@ const PlantDialog = () => {
             <Dialog.Footer>
               <Stack w="full">
                 <Dialog.ActionTrigger asChild>
-                  <ButtonCustom type="secondary" textValue="Cancel" onClick={onClose} />
+                  <ButtonCustom variant="secondary" textValue="Cancel" onClick={onClose} />
                 </Dialog.ActionTrigger>
               </Stack>
             </Dialog.Footer>

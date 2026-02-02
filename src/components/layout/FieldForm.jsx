@@ -1,43 +1,17 @@
-import { Input, Field, NumberInput } from "@chakra-ui/react";
-import TextInput from "./TextInput";
-import NumericInput from "./NumberInput";
-import DateInput from "./DateInput";
+import { Field } from "@chakra-ui/react";
 
-const FieldForm = ({ label, placeholder, type = "text", value, onChange }) => {
-  const renderInput = () => {
-    switch (type) {
-      case "number":
-        return (
-          <NumericInput
-            placeholder={placeholder}
-            value={value}
-            onChange={onChange}
-          />
-        );
-      case "date":
-        return (
-          <DateInput
-            placeholder={placeholder}
-            value={value}
-            onChange={onChange}
-          />
-        );
-      case "text":
-      default:
-        return (
-          <TextInput
-            placeholder={placeholder}
-            value={value}
-            onChange={onChange}
-          />
-        );
-    }
-  };
-
+const FieldForm = ({ label, error, children }) => {
   return (
-    <Field.Root>
-      <Field.Label color="text.secondary">{label}</Field.Label>
-      {renderInput()}
+    <Field.Root invalid={!!error}>
+      <Field.Label color="text.secondary" fontWeight="medium" mb={1}>
+        {label}
+      </Field.Label>
+      {children}
+      {error && (
+        <Field.ErrorText color="red.400" fontSize="xs" mt={1}>
+          {error.message}
+        </Field.ErrorText>
+      )}
     </Field.Root>
   );
 };

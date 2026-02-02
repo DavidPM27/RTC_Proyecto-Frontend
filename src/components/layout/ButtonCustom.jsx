@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 
-const ButtonCustom = ({ type = "primary", textValue, width = "full", ...props }) => {
-  return type === "primary" ? (
+const ButtonCustom = ({ variant = "primary", textValue, width = "full", ...props }) => {
+  return variant === "primary" ? (
     <Button
       variant="solid"
       size="sm"

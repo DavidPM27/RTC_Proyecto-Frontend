@@ -144,6 +144,7 @@ const MobileMenu = ({ pathname, navigate }) => (
             px={2}
           >
             {isActive && (
+              <>
               <Box
                 position="absolute"
                 top="-6"
@@ -160,11 +161,15 @@ const MobileMenu = ({ pathname, navigate }) => (
               >
                 <Icon as={item.icon} boxSize={6} />
               </Box>
+                <Text mt={6} fontSize="md" fontWeight="medium">
+                  {item.label}
+                </Text>
+              </>
             )}
             {!isActive && (
               <>
                 <Icon as={item.icon} boxSize={5} mb={1} />
-                <Text fontSize="10px" fontWeight="medium" opacity="0.8">
+                <Text fontSize="xs" fontWeight="medium" opacity="0.8">
                   {item.label}
                 </Text>
               </>

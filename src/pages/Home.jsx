@@ -39,9 +39,9 @@ const Home = () => {
       <Box
         as="section"
         flex="1"
-        px={{ base: 6, md: 10, lg: 40 }}
+        px={{ base: 6, md: 10, lg: 32 }}
         py={8}
-        pb={{ base: 32, md: 8 }} // Extra padding on mobile to not hide content behind the bottom nav
+        pb={{ base: 32, md: 0 }} // Extra padding on mobile to not hide content behind the bottom nav
         w="100%"
       >
         <Stack direction={{ base: "column", sm: "row" }} justify="space-between" align={{ base: "flex-start", sm: "center" }} mb={8} gap={4}>
@@ -57,7 +57,7 @@ const Home = () => {
         </Stack>
         <GlassCard>
           <Card.Body display="flex" gap={6}>
-            <Flex direction={{ base: "column", md: "row" }} w="100%" justifyContent="space-between" gap={6}>
+            <Flex direction={{ base: "row" }} w="100%" justifyContent="space-between" gap={6}>
               <VStack alignItems="flex-start" flex="1">
                 <Text fontSize="sm" color="text.secondary">
                   CURRENT WEATHER
@@ -115,7 +115,7 @@ const Home = () => {
             lg: "repeat(3, 1fr)", 
             xl: "repeat(4, 1fr)" 
           }} 
-          gap="20px"
+          gap={8}
         >
           {myGarden.map((plant) => (
             <GridItem

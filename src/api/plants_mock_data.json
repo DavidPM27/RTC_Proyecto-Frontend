@@ -1,0 +1,2069 @@
+[
+    {
+        "id": 1,
+        "common_name": "Swiss cheese plant",
+        "scientific_name": [
+            "Monstera deliciosa"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Monstera",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Swiss+cheese+plant\n(Monstera+deliciosa)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Swiss+cheese+plant\n(Monstera+deliciosa)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Swiss+cheese+plant\n(Monstera+deliciosa)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Swiss+cheese+plant\n(Monstera+deliciosa)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Swiss+cheese+plant\n(Monstera+deliciosa)"
+        }
+    },
+    {
+        "id": 2,
+        "common_name": "Fiddle-leaf fig",
+        "scientific_name": [
+            "Ficus lyrata"
+        ],
+        "other_name": [],
+        "family": "Moraceae",
+        "genus": "Ficus",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Fiddle-leaf+fig\n(Ficus+lyrata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Fiddle-leaf+fig\n(Ficus+lyrata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Fiddle-leaf+fig\n(Ficus+lyrata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Fiddle-leaf+fig\n(Ficus+lyrata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Fiddle-leaf+fig\n(Ficus+lyrata)"
+        }
+    },
+    {
+        "id": 3,
+        "common_name": "Rubber fig",
+        "scientific_name": [
+            "Ficus elastica"
+        ],
+        "other_name": [],
+        "family": "Moraceae",
+        "genus": "Ficus",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Rubber+fig\n(Ficus+elastica)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Rubber+fig\n(Ficus+elastica)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Rubber+fig\n(Ficus+elastica)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Rubber+fig\n(Ficus+elastica)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Rubber+fig\n(Ficus+elastica)"
+        }
+    },
+    {
+        "id": 4,
+        "common_name": "Golden pothos",
+        "scientific_name": [
+            "Epipremnum aureum"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Epipremnum",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Golden+pothos\n(Epipremnum+aureum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Golden+pothos\n(Epipremnum+aureum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Golden+pothos\n(Epipremnum+aureum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Golden+pothos\n(Epipremnum+aureum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Golden+pothos\n(Epipremnum+aureum)"
+        }
+    },
+    {
+        "id": 5,
+        "common_name": "Snake plant",
+        "scientific_name": [
+            "Dracaena trifasciata"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Dracaena",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Snake+plant\n(Dracaena+trifasciata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Snake+plant\n(Dracaena+trifasciata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Snake+plant\n(Dracaena+trifasciata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Snake+plant\n(Dracaena+trifasciata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Snake+plant\n(Dracaena+trifasciata)"
+        }
+    },
+    {
+        "id": 6,
+        "common_name": "Peace lily",
+        "scientific_name": [
+            "Spathiphyllum wallisii"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Spathiphyllum",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peace+lily\n(Spathiphyllum+wallisii)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peace+lily\n(Spathiphyllum+wallisii)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peace+lily\n(Spathiphyllum+wallisii)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peace+lily\n(Spathiphyllum+wallisii)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peace+lily\n(Spathiphyllum+wallisii)"
+        }
+    },
+    {
+        "id": 7,
+        "common_name": "Spider plant",
+        "scientific_name": [
+            "Chlorophytum comosum"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Chlorophytum",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spider+plant\n(Chlorophytum+comosum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spider+plant\n(Chlorophytum+comosum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spider+plant\n(Chlorophytum+comosum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spider+plant\n(Chlorophytum+comosum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spider+plant\n(Chlorophytum+comosum)"
+        }
+    },
+    {
+        "id": 8,
+        "common_name": "Aloe vera",
+        "scientific_name": [
+            "Aloe vera"
+        ],
+        "other_name": [],
+        "family": "Asphodelaceae",
+        "genus": "Aloe",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Aloe+vera\n(Aloe+vera)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Aloe+vera\n(Aloe+vera)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Aloe+vera\n(Aloe+vera)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Aloe+vera\n(Aloe+vera)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Aloe+vera\n(Aloe+vera)"
+        }
+    },
+    {
+        "id": 9,
+        "common_name": "Jade plant",
+        "scientific_name": [
+            "Crassula ovata"
+        ],
+        "other_name": [],
+        "family": "Crassulaceae",
+        "genus": "Crassula",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Jade+plant\n(Crassula+ovata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Jade+plant\n(Crassula+ovata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Jade+plant\n(Crassula+ovata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Jade+plant\n(Crassula+ovata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Jade+plant\n(Crassula+ovata)"
+        }
+    },
+    {
+        "id": 10,
+        "common_name": "ZZ plant",
+        "scientific_name": [
+            "Zamioculcas zamiifolia"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Zamioculcas",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=ZZ+plant\n(Zamioculcas+zamiifolia)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=ZZ+plant\n(Zamioculcas+zamiifolia)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=ZZ+plant\n(Zamioculcas+zamiifolia)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=ZZ+plant\n(Zamioculcas+zamiifolia)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=ZZ+plant\n(Zamioculcas+zamiifolia)"
+        }
+    },
+    {
+        "id": 11,
+        "common_name": "Chinese money plant",
+        "scientific_name": [
+            "Pilea peperomioides"
+        ],
+        "other_name": [],
+        "family": "Urticaceae",
+        "genus": "Pilea",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+money+plant\n(Pilea+peperomioides)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+money+plant\n(Pilea+peperomioides)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+money+plant\n(Pilea+peperomioides)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+money+plant\n(Pilea+peperomioides)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+money+plant\n(Pilea+peperomioides)"
+        }
+    },
+    {
+        "id": 12,
+        "common_name": "Peacock plant",
+        "scientific_name": [
+            "Goeppertia makoyana"
+        ],
+        "other_name": [],
+        "family": "Marantaceae",
+        "genus": "Goeppertia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peacock+plant\n(Goeppertia+makoyana)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peacock+plant\n(Goeppertia+makoyana)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peacock+plant\n(Goeppertia+makoyana)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peacock+plant\n(Goeppertia+makoyana)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Peacock+plant\n(Goeppertia+makoyana)"
+        }
+    },
+    {
+        "id": 13,
+        "common_name": "English ivy",
+        "scientific_name": [
+            "Hedera helix"
+        ],
+        "other_name": [],
+        "family": "Araliaceae",
+        "genus": "Hedera",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=English+ivy\n(Hedera+helix)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=English+ivy\n(Hedera+helix)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=English+ivy\n(Hedera+helix)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=English+ivy\n(Hedera+helix)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=English+ivy\n(Hedera+helix)"
+        }
+    },
+    {
+        "id": 14,
+        "common_name": "Dragon tree",
+        "scientific_name": [
+            "Dracaena marginata"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Dracaena",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dragon+tree\n(Dracaena+marginata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dragon+tree\n(Dracaena+marginata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dragon+tree\n(Dracaena+marginata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dragon+tree\n(Dracaena+marginata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dragon+tree\n(Dracaena+marginata)"
+        }
+    },
+    {
+        "id": 15,
+        "common_name": "Chinese evergreen",
+        "scientific_name": [
+            "Aglaonema commutatum"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Aglaonema",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+evergreen\n(Aglaonema+commutatum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+evergreen\n(Aglaonema+commutatum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+evergreen\n(Aglaonema+commutatum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+evergreen\n(Aglaonema+commutatum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Chinese+evergreen\n(Aglaonema+commutatum)"
+        }
+    },
+    {
+        "id": 16,
+        "common_name": "Inch plant",
+        "scientific_name": [
+            "Tradescantia zebrina"
+        ],
+        "other_name": [],
+        "family": "Commelinaceae",
+        "genus": "Tradescantia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Inch+plant\n(Tradescantia+zebrina)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Inch+plant\n(Tradescantia+zebrina)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Inch+plant\n(Tradescantia+zebrina)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Inch+plant\n(Tradescantia+zebrina)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Inch+plant\n(Tradescantia+zebrina)"
+        }
+    },
+    {
+        "id": 17,
+        "common_name": "Baby rubberplant",
+        "scientific_name": [
+            "Peperomia obtusifolia"
+        ],
+        "other_name": [],
+        "family": "Piperaceae",
+        "genus": "Peperomia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Baby+rubberplant\n(Peperomia+obtusifolia)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Baby+rubberplant\n(Peperomia+obtusifolia)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Baby+rubberplant\n(Peperomia+obtusifolia)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Baby+rubberplant\n(Peperomia+obtusifolia)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Baby+rubberplant\n(Peperomia+obtusifolia)"
+        }
+    },
+    {
+        "id": 18,
+        "common_name": "Arrowhead plant",
+        "scientific_name": [
+            "Syngonium podophyllum"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Syngonium",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Arrowhead+plant\n(Syngonium+podophyllum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Arrowhead+plant\n(Syngonium+podophyllum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Arrowhead+plant\n(Syngonium+podophyllum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Arrowhead+plant\n(Syngonium+podophyllum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Arrowhead+plant\n(Syngonium+podophyllum)"
+        }
+    },
+    {
+        "id": 19,
+        "common_name": "Heartleaf philodendron",
+        "scientific_name": [
+            "Philodendron hederaceum"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Philodendron",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Heartleaf+philodendron\n(Philodendron+hederaceum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Heartleaf+philodendron\n(Philodendron+hederaceum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Heartleaf+philodendron\n(Philodendron+hederaceum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Heartleaf+philodendron\n(Philodendron+hederaceum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Heartleaf+philodendron\n(Philodendron+hederaceum)"
+        }
+    },
+    {
+        "id": 20,
+        "common_name": "Christmas cactus",
+        "scientific_name": [
+            "Schlumbergera truncata"
+        ],
+        "other_name": [],
+        "family": "Cactaceae",
+        "genus": "Schlumbergera",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Christmas+cactus\n(Schlumbergera+truncata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Christmas+cactus\n(Schlumbergera+truncata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Christmas+cactus\n(Schlumbergera+truncata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Christmas+cactus\n(Schlumbergera+truncata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Christmas+cactus\n(Schlumbergera+truncata)"
+        }
+    },
+    {
+        "id": 21,
+        "common_name": "Poinsettia",
+        "scientific_name": [
+            "Euphorbia pulcherrima"
+        ],
+        "other_name": [],
+        "family": "Euphorbiaceae",
+        "genus": "Euphorbia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Poinsettia\n(Euphorbia+pulcherrima)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Poinsettia\n(Euphorbia+pulcherrima)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Poinsettia\n(Euphorbia+pulcherrima)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Poinsettia\n(Euphorbia+pulcherrima)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Poinsettia\n(Euphorbia+pulcherrima)"
+        }
+    },
+    {
+        "id": 22,
+        "common_name": "Moth orchid",
+        "scientific_name": [
+            "Phalaenopsis aphrodite"
+        ],
+        "other_name": [],
+        "family": "Orchidaceae",
+        "genus": "Phalaenopsis",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Moth+orchid\n(Phalaenopsis+aphrodite)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Moth+orchid\n(Phalaenopsis+aphrodite)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Moth+orchid\n(Phalaenopsis+aphrodite)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Moth+orchid\n(Phalaenopsis+aphrodite)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Moth+orchid\n(Phalaenopsis+aphrodite)"
+        }
+    },
+    {
+        "id": 23,
+        "common_name": "Flamingo flower",
+        "scientific_name": [
+            "Anthurium andraeanum"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Anthurium",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flamingo+flower\n(Anthurium+andraeanum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flamingo+flower\n(Anthurium+andraeanum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flamingo+flower\n(Anthurium+andraeanum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flamingo+flower\n(Anthurium+andraeanum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flamingo+flower\n(Anthurium+andraeanum)"
+        }
+    },
+    {
+        "id": 24,
+        "common_name": "Polka dot begonia",
+        "scientific_name": [
+            "Begonia maculata"
+        ],
+        "other_name": [],
+        "family": "Begoniaceae",
+        "genus": "Begonia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Polka+dot+begonia\n(Begonia+maculata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Polka+dot+begonia\n(Begonia+maculata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Polka+dot+begonia\n(Begonia+maculata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Polka+dot+begonia\n(Begonia+maculata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Polka+dot+begonia\n(Begonia+maculata)"
+        }
+    },
+    {
+        "id": 25,
+        "common_name": "African mask",
+        "scientific_name": [
+            "Alocasia amazonica"
+        ],
+        "other_name": [],
+        "family": "Araceae",
+        "genus": "Alocasia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+mask\n(Alocasia+amazonica)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+mask\n(Alocasia+amazonica)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+mask\n(Alocasia+amazonica)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+mask\n(Alocasia+amazonica)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+mask\n(Alocasia+amazonica)"
+        }
+    },
+    {
+        "id": 26,
+        "common_name": "Nerve plant",
+        "scientific_name": [
+            "Fittonia albivenis"
+        ],
+        "other_name": [],
+        "family": "Acanthaceae",
+        "genus": "Fittonia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Nerve+plant\n(Fittonia+albivenis)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Nerve+plant\n(Fittonia+albivenis)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Nerve+plant\n(Fittonia+albivenis)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Nerve+plant\n(Fittonia+albivenis)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Nerve+plant\n(Fittonia+albivenis)"
+        }
+    },
+    {
+        "id": 27,
+        "common_name": "Prayer plant",
+        "scientific_name": [
+            "Maranta leuconeura"
+        ],
+        "other_name": [],
+        "family": "Marantaceae",
+        "genus": "Maranta",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water when top inch of soil is dry. Mist leaves occasionally.",
+            "sunlight": "Bright, indirect light is best. Direct sun can burn leaves."
+        },
+        "hardiness": {
+            "min": "18°C",
+            "max": "27°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Prayer+plant\n(Maranta+leuconeura)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Prayer+plant\n(Maranta+leuconeura)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Prayer+plant\n(Maranta+leuconeura)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Prayer+plant\n(Maranta+leuconeura)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Prayer+plant\n(Maranta+leuconeura)"
+        }
+    },
+    {
+        "id": 28,
+        "common_name": "Ponytail palm",
+        "scientific_name": [
+            "Beaucarnea recurvata"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Beaucarnea",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Ponytail+palm\n(Beaucarnea+recurvata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Ponytail+palm\n(Beaucarnea+recurvata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Ponytail+palm\n(Beaucarnea+recurvata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Ponytail+palm\n(Beaucarnea+recurvata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Ponytail+palm\n(Beaucarnea+recurvata)"
+        }
+    },
+    {
+        "id": 29,
+        "common_name": "Spineless yucca",
+        "scientific_name": [
+            "Yucca elephantipes"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Yucca",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spineless+yucca\n(Yucca+elephantipes)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spineless+yucca\n(Yucca+elephantipes)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spineless+yucca\n(Yucca+elephantipes)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spineless+yucca\n(Yucca+elephantipes)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spineless+yucca\n(Yucca+elephantipes)"
+        }
+    },
+    {
+        "id": 30,
+        "common_name": "Norfolk Island pine",
+        "scientific_name": [
+            "Araucaria heterophylla"
+        ],
+        "other_name": [],
+        "family": "Araucariaceae",
+        "genus": "Araucaria",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Norfolk+Island+pine\n(Araucaria+heterophylla)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Norfolk+Island+pine\n(Araucaria+heterophylla)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Norfolk+Island+pine\n(Araucaria+heterophylla)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Norfolk+Island+pine\n(Araucaria+heterophylla)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Norfolk+Island+pine\n(Araucaria+heterophylla)"
+        }
+    },
+    {
+        "id": 31,
+        "common_name": "Parlor palm",
+        "scientific_name": [
+            "Chamaedorea elegans"
+        ],
+        "other_name": [],
+        "family": "Arecaceae",
+        "genus": "Chamaedorea",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full sun"
+        ],
+        "care_description": {
+            "watering": "Keep soil moist but well-drained. Sensitive to overwatering.",
+            "sunlight": "Bright, indirect light. Some varieties tolerate lower light."
+        },
+        "hardiness": {
+            "min": "16°C",
+            "max": "28°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Parlor+palm\n(Chamaedorea+elegans)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Parlor+palm\n(Chamaedorea+elegans)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Parlor+palm\n(Chamaedorea+elegans)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Parlor+palm\n(Chamaedorea+elegans)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Parlor+palm\n(Chamaedorea+elegans)"
+        }
+    },
+    {
+        "id": 32,
+        "common_name": "Areca palm",
+        "scientific_name": [
+            "Dypsis lutescens"
+        ],
+        "other_name": [],
+        "family": "Arecaceae",
+        "genus": "Dypsis",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full sun"
+        ],
+        "care_description": {
+            "watering": "Keep soil moist but well-drained. Sensitive to overwatering.",
+            "sunlight": "Bright, indirect light. Some varieties tolerate lower light."
+        },
+        "hardiness": {
+            "min": "16°C",
+            "max": "28°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Areca+palm\n(Dypsis+lutescens)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Areca+palm\n(Dypsis+lutescens)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Areca+palm\n(Dypsis+lutescens)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Areca+palm\n(Dypsis+lutescens)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Areca+palm\n(Dypsis+lutescens)"
+        }
+    },
+    {
+        "id": 33,
+        "common_name": "Lady palm",
+        "scientific_name": [
+            "Rhapis excelsa"
+        ],
+        "other_name": [],
+        "family": "Arecaceae",
+        "genus": "Rhapis",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full sun"
+        ],
+        "care_description": {
+            "watering": "Keep soil moist but well-drained. Sensitive to overwatering.",
+            "sunlight": "Bright, indirect light. Some varieties tolerate lower light."
+        },
+        "hardiness": {
+            "min": "16°C",
+            "max": "28°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Lady+palm\n(Rhapis+excelsa)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Lady+palm\n(Rhapis+excelsa)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Lady+palm\n(Rhapis+excelsa)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Lady+palm\n(Rhapis+excelsa)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Lady+palm\n(Rhapis+excelsa)"
+        }
+    },
+    {
+        "id": 34,
+        "common_name": "Kentia palm",
+        "scientific_name": [
+            "Howea forsteriana"
+        ],
+        "other_name": [],
+        "family": "Arecaceae",
+        "genus": "Howea",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full sun"
+        ],
+        "care_description": {
+            "watering": "Keep soil moist but well-drained. Sensitive to overwatering.",
+            "sunlight": "Bright, indirect light. Some varieties tolerate lower light."
+        },
+        "hardiness": {
+            "min": "16°C",
+            "max": "28°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Kentia+palm\n(Howea+forsteriana)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Kentia+palm\n(Howea+forsteriana)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Kentia+palm\n(Howea+forsteriana)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Kentia+palm\n(Howea+forsteriana)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Kentia+palm\n(Howea+forsteriana)"
+        }
+    },
+    {
+        "id": 35,
+        "common_name": "Boston fern",
+        "scientific_name": [
+            "Nephrolepis exaltata"
+        ],
+        "other_name": [],
+        "family": "Nephrolepidaceae",
+        "genus": "Nephrolepis",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Frequent",
+        "watering": "Frequent",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full shade"
+        ],
+        "care_description": {
+            "watering": "Keep soil consistently moist but not waterlogged. High humidity required.",
+            "sunlight": "Prefers indirect light or dappled shade. Avoid direct sun."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "24°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Boston+fern\n(Nephrolepis+exaltata)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Boston+fern\n(Nephrolepis+exaltata)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Boston+fern\n(Nephrolepis+exaltata)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Boston+fern\n(Nephrolepis+exaltata)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Boston+fern\n(Nephrolepis+exaltata)"
+        }
+    },
+    {
+        "id": 36,
+        "common_name": "Bird's nest fern",
+        "scientific_name": [
+            "Asplenium nidus"
+        ],
+        "other_name": [],
+        "family": "Aspleniaceae",
+        "genus": "Asplenium",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Frequent",
+        "watering": "Frequent",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full shade"
+        ],
+        "care_description": {
+            "watering": "Keep soil consistently moist but not waterlogged. High humidity required.",
+            "sunlight": "Prefers indirect light or dappled shade. Avoid direct sun."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "24°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Bird's+nest+fern\n(Asplenium+nidus)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Bird's+nest+fern\n(Asplenium+nidus)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Bird's+nest+fern\n(Asplenium+nidus)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Bird's+nest+fern\n(Asplenium+nidus)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Bird's+nest+fern\n(Asplenium+nidus)"
+        }
+    },
+    {
+        "id": 37,
+        "common_name": "Delta maidenhair fern",
+        "scientific_name": [
+            "Adiantum raddianum"
+        ],
+        "other_name": [],
+        "family": "Pteridaceae",
+        "genus": "Adiantum",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Frequent",
+        "watering": "Frequent",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full shade"
+        ],
+        "care_description": {
+            "watering": "Keep soil consistently moist but not waterlogged. High humidity required.",
+            "sunlight": "Prefers indirect light or dappled shade. Avoid direct sun."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "24°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Delta+maidenhair+fern\n(Adiantum+raddianum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Delta+maidenhair+fern\n(Adiantum+raddianum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Delta+maidenhair+fern\n(Adiantum+raddianum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Delta+maidenhair+fern\n(Adiantum+raddianum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Delta+maidenhair+fern\n(Adiantum+raddianum)"
+        }
+    },
+    {
+        "id": 38,
+        "common_name": "Staghorn fern",
+        "scientific_name": [
+            "Platycerium bifurcatum"
+        ],
+        "other_name": [],
+        "family": "Polypodiaceae",
+        "genus": "Platycerium",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Frequent",
+        "watering": "Frequent",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade",
+            "Full shade"
+        ],
+        "care_description": {
+            "watering": "Keep soil consistently moist but not waterlogged. High humidity required.",
+            "sunlight": "Prefers indirect light or dappled shade. Avoid direct sun."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "24°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Staghorn+fern\n(Platycerium+bifurcatum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Staghorn+fern\n(Platycerium+bifurcatum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Staghorn+fern\n(Platycerium+bifurcatum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Staghorn+fern\n(Platycerium+bifurcatum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Staghorn+fern\n(Platycerium+bifurcatum)"
+        }
+    },
+    {
+        "id": 39,
+        "common_name": "African violet",
+        "scientific_name": [
+            "Saintpaulia ionantha"
+        ],
+        "other_name": [],
+        "family": "Gesneriaceae",
+        "genus": "Saintpaulia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+violet\n(Saintpaulia+ionantha)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+violet\n(Saintpaulia+ionantha)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+violet\n(Saintpaulia+ionantha)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+violet\n(Saintpaulia+ionantha)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=African+violet\n(Saintpaulia+ionantha)"
+        }
+    },
+    {
+        "id": 40,
+        "common_name": "Persian cyclamen",
+        "scientific_name": [
+            "Cyclamen persicum"
+        ],
+        "other_name": [],
+        "family": "Primulaceae",
+        "genus": "Cyclamen",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Persian+cyclamen\n(Cyclamen+persicum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Persian+cyclamen\n(Cyclamen+persicum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Persian+cyclamen\n(Cyclamen+persicum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Persian+cyclamen\n(Cyclamen+persicum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Persian+cyclamen\n(Cyclamen+persicum)"
+        }
+    },
+    {
+        "id": 41,
+        "common_name": "Flaming katy",
+        "scientific_name": [
+            "Kalanchoe blossfeldiana"
+        ],
+        "other_name": [],
+        "family": "Crassulaceae",
+        "genus": "Kalanchoe",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flaming+katy\n(Kalanchoe+blossfeldiana)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flaming+katy\n(Kalanchoe+blossfeldiana)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flaming+katy\n(Kalanchoe+blossfeldiana)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flaming+katy\n(Kalanchoe+blossfeldiana)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Flaming+katy\n(Kalanchoe+blossfeldiana)"
+        }
+    },
+    {
+        "id": 42,
+        "common_name": "Coleus",
+        "scientific_name": [
+            "Solenostemon scutellarioides"
+        ],
+        "other_name": [],
+        "family": "Lamiaceae",
+        "genus": "Solenostemon",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Coleus\n(Solenostemon+scutellarioides)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Coleus\n(Solenostemon+scutellarioides)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Coleus\n(Solenostemon+scutellarioides)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Coleus\n(Solenostemon+scutellarioides)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Coleus\n(Solenostemon+scutellarioides)"
+        }
+    },
+    {
+        "id": 43,
+        "common_name": "Croton",
+        "scientific_name": [
+            "Codiaeum variegatum"
+        ],
+        "other_name": [],
+        "family": "Euphorbiaceae",
+        "genus": "Codiaeum",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Croton\n(Codiaeum+variegatum)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Croton\n(Codiaeum+variegatum)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Croton\n(Codiaeum+variegatum)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Croton\n(Codiaeum+variegatum)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Croton\n(Codiaeum+variegatum)"
+        }
+    },
+    {
+        "id": 44,
+        "common_name": "Dwarf umbrella tree",
+        "scientific_name": [
+            "Schefflera arboricola"
+        ],
+        "other_name": [],
+        "family": "Araliaceae",
+        "genus": "Schefflera",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dwarf+umbrella+tree\n(Schefflera+arboricola)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dwarf+umbrella+tree\n(Schefflera+arboricola)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dwarf+umbrella+tree\n(Schefflera+arboricola)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dwarf+umbrella+tree\n(Schefflera+arboricola)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Dwarf+umbrella+tree\n(Schefflera+arboricola)"
+        }
+    },
+    {
+        "id": 45,
+        "common_name": "Paper plant",
+        "scientific_name": [
+            "Fatsia japonica"
+        ],
+        "other_name": [],
+        "family": "Araliaceae",
+        "genus": "Fatsia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Paper+plant\n(Fatsia+japonica)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Paper+plant\n(Fatsia+japonica)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Paper+plant\n(Fatsia+japonica)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Paper+plant\n(Fatsia+japonica)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Paper+plant\n(Fatsia+japonica)"
+        }
+    },
+    {
+        "id": 46,
+        "common_name": "Cast iron plant",
+        "scientific_name": [
+            "Aspidistra elatior"
+        ],
+        "other_name": [],
+        "family": "Asparagaceae",
+        "genus": "Aspidistra",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Cast+iron+plant\n(Aspidistra+elatior)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Cast+iron+plant\n(Aspidistra+elatior)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Cast+iron+plant\n(Aspidistra+elatior)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Cast+iron+plant\n(Aspidistra+elatior)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Cast+iron+plant\n(Aspidistra+elatior)"
+        }
+    },
+    {
+        "id": 47,
+        "common_name": "Porcelainflower",
+        "scientific_name": [
+            "Hoya carnosa"
+        ],
+        "other_name": [],
+        "family": "Apocynaceae",
+        "genus": "Hoya",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Porcelainflower\n(Hoya+carnosa)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Porcelainflower\n(Hoya+carnosa)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Porcelainflower\n(Hoya+carnosa)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Porcelainflower\n(Hoya+carnosa)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Porcelainflower\n(Hoya+carnosa)"
+        }
+    },
+    {
+        "id": 48,
+        "common_name": "String of pearls",
+        "scientific_name": [
+            "Senecio rowleyanus"
+        ],
+        "other_name": [],
+        "family": "Asteraceae",
+        "genus": "Senecio",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Minimum",
+        "watering": "Minimum",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Full sun",
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Allow soil to dry completely between waterings. Water sparingly in winter.",
+            "sunlight": "Thrives in bright, direct light but can tolerate some shade."
+        },
+        "hardiness": {
+            "min": "10°C",
+            "max": "30°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+pearls\n(Senecio+rowleyanus)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+pearls\n(Senecio+rowleyanus)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+pearls\n(Senecio+rowleyanus)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+pearls\n(Senecio+rowleyanus)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+pearls\n(Senecio+rowleyanus)"
+        }
+    },
+    {
+        "id": 49,
+        "common_name": "String of hearts",
+        "scientific_name": [
+            "Ceropegia woodii"
+        ],
+        "other_name": [],
+        "family": "Apocynaceae",
+        "genus": "Ceropegia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+hearts\n(Ceropegia+woodii)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+hearts\n(Ceropegia+woodii)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+hearts\n(Ceropegia+woodii)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+hearts\n(Ceropegia+woodii)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=String+of+hearts\n(Ceropegia+woodii)"
+        }
+    },
+    {
+        "id": 50,
+        "common_name": "Spanish moss",
+        "scientific_name": [
+            "Tillandsia usneoides"
+        ],
+        "other_name": [],
+        "family": "Bromeliaceae",
+        "genus": "Tillandsia",
+        "origin": null,
+        "type": "Indoor",
+        "dimension": "Medium",
+        "cycle": "Perennial",
+        "care_level": "Average",
+        "watering": "Average",
+        "watering_general_benchmark": {
+            "value": "7-10 days",
+            "unit": "days"
+        },
+        "sunlight": [
+            "Part shade"
+        ],
+        "care_description": {
+            "watering": "Water weekly during growing season. Allow soil to dry slightly.",
+            "sunlight": "Bright, filtered light."
+        },
+        "hardiness": {
+            "min": "15°C",
+            "max": "25°C"
+        },
+        "default_image": {
+            "license": 451,
+            "license_name": "Mock Image Service",
+            "license_url": "",
+            "original_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spanish+moss\n(Tillandsia+usneoides)",
+            "regular_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spanish+moss\n(Tillandsia+usneoides)",
+            "medium_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spanish+moss\n(Tillandsia+usneoides)",
+            "small_url": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spanish+moss\n(Tillandsia+usneoides)",
+            "thumbnail": "https://placehold.co/600x800/EEE/31343C?font=montserrat&text=Spanish+moss\n(Tillandsia+usneoides)"
+        }
+    }
+]

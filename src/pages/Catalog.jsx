@@ -9,16 +9,15 @@ import {
   Grid,
   Container,
   Stack,
-  Badge,
   Image,
   Spinner,
 } from "@chakra-ui/react";
 import { FiSearch } from "react-icons/fi";
 import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { capitalize } from "../hooks/useCapitalize";
+import { capitalize } from "../utils/capitalize";
 import Menu from "../components/layout/Menu";
-import GlassCard from "../components/layout/GlassCard";
+import GlassCard from "../components/ui/GlassCard";
 
 const Catalog = () => {
   const [plants, setPlants] = useState([]);

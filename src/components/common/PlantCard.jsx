@@ -6,7 +6,7 @@ import {
   HStack,
   Icon,
 } from "@chakra-ui/react";
-import ButtonCustom from "../layout/ButtonCustom";
+import ButtonCustom from "../ui/ButtonCustom";
 import { LuCircle, LuDroplets } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 

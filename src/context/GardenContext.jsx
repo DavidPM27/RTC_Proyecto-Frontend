@@ -1,20 +1,25 @@
-import { createContext, useState, useContext, useCallback, useEffect } from 'react';
+import { createContext, useState, useCallback, useEffect } from 'react';
 import { INITIAL_PLANTS } from '../api/initialPlants';
 import { useWeather } from '../hooks/useWeather';
 
-const GardenContext = createContext();
+export const GardenContext = createContext();
 
 export const GardenProvider = ({ children }) => {
   const [myGarden, setMyGarden] = useState(INITIAL_PLANTS);
   const [notification, setNotification] = useState(null);
   const { weather, loading, error } = useWeather();
   const [cachedWeather, setCachedWeather] = useState(null);
+  const [plantDetails, setPlantDetails] = useState({});
 
   useEffect(() => {
     if (weather && !loading) {
       setCachedWeather(weather);
     }
   }, [weather, loading]);
+
+  const addPlantDetails = useCallback((id, details) => {
+    setPlantDetails(prev => ({ ...prev, [id]: details }));
+  }, []);
 
   const addPlant = (plantData) => {
     let newPlant;
@@ -25,21 +30,28 @@ export const GardenProvider = ({ children }) => {
       
       newPlant = {
         id: crypto.randomUUID(),
-        apiId: plantData.id,
+        apiId: plantData.id || plantData.apiId,
         species: plantData.common_name || plantData.scientific_name?.[0] || 'Unknown Plant',
-        imageUrl: plantData.default_image?.medium_url || plantData.default_image?.thumbnail || 'https://via.placeholder.com/400',
-        category: plantData.type || 'Plant',
+        imageUrl: plantData.default_image?.medium_url || plantData.default_image?.thumbnail || plantData.imageUrl || 'https://via.placeholder.com/400',
+        category: plantData.type || plantData.category || 'Plant',
         stats: {
-          plantedAt: new Date().toISOString().split('T')[0],
-          lastWatered: new Date().toISOString(),
-          wateringFrequency: plantData.watering_general_benchmark?.value ? parseInt(cleanedWaterData?.split('-')[0]) : 7,
+          plantedAt: plantData.stats?.plantedAt || new Date().toISOString().split('T')[0],
+          lastWatered: plantData.stats?.lastWatered || new Date().toISOString(),
+          wateringFrequency: plantData.watering_general_benchmark?.value 
+            ? parseInt(cleanedWaterData?.split('-')[0]) 
+            : (plantData.stats?.wateringFrequency || 7),
         },
         requirements: {
-          minTemp: plantData.hardiness?.min ? parseInt(plantData.hardiness.min) : 10,
-          maxTemp: plantData.hardiness?.max ? parseInt(plantData.hardiness.max) : 30,
-          idealPh: 6.0,
+          minTemp: plantData.hardiness?.min ? parseInt(plantData.hardiness.min) : (plantData.requirements?.minTemp || 10),
+          maxTemp: plantData.hardiness?.max ? parseInt(plantData.hardiness.max) : (plantData.requirements?.maxTemp || 30),
+          idealPh: plantData.requirements?.idealPh || 6.0,
         },
+        fullDetails: plantData.description ? plantData : null
       };
+
+      if (plantData.description) {
+        addPlantDetails(newPlant.apiId, plantData);
+      }
     } else {
       newPlant = {
         ...plantData,
@@ -90,7 +102,9 @@ export const GardenProvider = ({ children }) => {
     waterPlant,
     weather: cachedWeather,
     weatherLoading: loading,
-    weatherError: error
+    weatherError: error,
+    plantDetails,
+    addPlantDetails
   };
 
   return (
@@ -98,12 +112,4 @@ export const GardenProvider = ({ children }) => {
       {children}
     </GardenContext.Provider>
   );
-};
-
-export const useGarden = () => {
-  const context = useContext(GardenContext);
-  if (!context) {
-    throw new Error('useGarden debe ser usado dentro de un GardenProvider');
-  }
-  return context;
 };

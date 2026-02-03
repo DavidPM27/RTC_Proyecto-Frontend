@@ -7,11 +7,11 @@ import {
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 import { LuUpload } from "react-icons/lu";
-import FieldForm from "../components/layout/FieldForm";
-import ButtonCustom from "../components/layout/ButtonCustom";
-import TextInput from "../components/layout/TextInput";
-import NumericInput from "../components/layout/NumberInput";
-import DateInput from "../components/layout/DateInput";
+import FieldForm from "../components/common/FieldForm";
+import ButtonCustom from "../components/ui/ButtonCustom";
+import TextInput from "../components/ui/TextInput";
+import NumericInput from "../components/ui/NumberInput";
+import DateInput from "../components/ui/DateInput";
 
 const AddPlant = ({ onAddPlant, onClose }) => {
   const { 

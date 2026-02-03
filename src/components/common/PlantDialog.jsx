@@ -9,8 +9,8 @@ import {
 import { useDisclosure } from "@chakra-ui/react";
 import { LuX } from "react-icons/lu";
 import AddPlant from "../../pages/AddPlant";
-import ButtonCustom from "../layout/ButtonCustom";
-import { useGarden } from "../../context/GardenContext";
+import ButtonCustom from "../ui/ButtonCustom";
+import { useGarden } from "../../hooks/useGarden";
 
 const PlantDialog = () => {
   const { open, onOpen, onClose } = useDisclosure();

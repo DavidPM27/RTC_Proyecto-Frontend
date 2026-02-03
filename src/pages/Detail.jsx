@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {
   Box,
   Container,
@@ -10,15 +10,13 @@ import {
   Flex,
   Badge,
   Button,
-  VStack,
-  HStack,
+  Grid,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { FiArrowLeft } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
-import { capitalize } from "../hooks/useCapitalize";
+import { capitalize } from "../utils/capitalize";
 import Menu from "../components/layout/Menu";
-import { useGarden } from "../context/GardenContext";
+import { useGarden } from "../hooks/useGarden";
 
 const Detail = () => {
   const { id } = useParams();

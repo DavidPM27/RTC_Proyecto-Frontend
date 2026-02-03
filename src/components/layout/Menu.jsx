@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { LuLeaf, LuLayoutGrid, LuSearch, LuUser } from "react-icons/lu";
 import { useLocation, useNavigate } from "react-router-dom";
-import GlassCard from "./GlassCard";
+import GlassCard from "../ui/GlassCard";
 
 const navItems = [
   { label: "Home", icon: LuLayoutGrid, href: "/" },

@@ -11,14 +11,12 @@ import {
   Flex,
   Stack
 } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
-import { useGarden } from "../context/GardenContext";
+import { useGarden } from "../hooks/useGarden";
 import PlantCard from "../components/common/PlantCard";
 import Menu from "../components/layout/Menu";
-import "./Home.css";
 import PlantDialog from "../components/common/PlantDialog";
 import { LuCloudSun, LuDroplets, LuWind } from "react-icons/lu";
-import GlassCard from "../components/layout/GlassCard";
+import GlassCard from "../components/ui/GlassCard";
 
 const Home = () => {
   const { weather, weatherLoading, weatherError, myGarden } = useGarden();

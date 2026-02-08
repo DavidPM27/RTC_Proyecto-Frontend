@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import { useState, useEffect } from 'react';
 
 const BASE_URL = 'https://api.open-meteo.com/v1/forecast';
@@ -29,7 +28,7 @@ export const useWeather = () => {
           
           const data = await response.json();
           
-          // 3. Guardar estado (Estado 1 de 3 requeridos)
+          // Store state
           setWeather({
             temp: Math.round(data.current.temperature_2m),
             temp_unit: data.current_units.temperature_2m,
@@ -50,7 +49,7 @@ export const useWeather = () => {
         setLoading(false);
       }
     );
-  }, []); // Se ejecuta solo al montar el componente
+  }, []); // Runs only when the component mounts
 
   return { weather, loading, error };
 };

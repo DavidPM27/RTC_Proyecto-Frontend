@@ -18,6 +18,7 @@ import { useNavigate } from "react-router-dom";
 import { capitalize } from "../utils/capitalize";
 import Menu from "../components/layout/Menu";
 import GlassCard from "../components/ui/GlassCard";
+import plantsData from "../api/plants_mock_data.json";
 
 const Catalog = () => {
   const [plants, setPlants] = useState([]);
@@ -26,31 +27,25 @@ const Catalog = () => {
   const inputRef = useRef();
   const navigate = useNavigate();
 
-  const handleSearch = async () => {
-    const API_KEY = import.meta.env.VITE_PERENUAL_API_KEY;
-    if (!API_KEY) {
-      console.error("API key is missing");
-      return;
-    }
-
-    const query = inputRef.current.value.trim();
+  const handleSearch = () => {
+    const query = inputRef.current.value.trim().toLowerCase();
     if (!query) return;
 
     setLoading(true);
     setHasSearched(true);
-    try {
-      const response = await fetch(
-        `https://perenual.com/api/v2/species-list?key=${API_KEY}&q=${query}`
+
+    const results = plantsData.filter((plant) => {
+      const matchesCommon = plant.common_name
+        ?.toLowerCase()
+        .includes(query);
+      const matchesScientific = plant.scientific_name?.some((name) =>
+        name.toLowerCase().includes(query)
       );
-      const data = await response.json();
-      data.data = data.data.filter((plant) => plant.id <= 3000);
-      setPlants(data.data || []);
-      console.log("Plants found:", data.data);
-    } catch (error) {
-      console.error("Error fetching plant data:", error);
-    } finally {
-      setLoading(false);
-    }
+      return matchesCommon || matchesScientific;
+    });
+
+    setPlants(results);
+    setLoading(false);
   };
 
   if (hasSearched) {

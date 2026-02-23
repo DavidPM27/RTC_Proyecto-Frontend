@@ -17,6 +17,7 @@ import { FiArrowLeft } from "react-icons/fi";
 import { capitalize } from "../utils/capitalize";
 import Menu from "../components/layout/Menu";
 import { useGarden } from "../hooks/useGarden";
+import plantsData from "../api/plants_mock_data.json";
 
 const Detail = () => {
   const { id } = useParams();
@@ -27,30 +28,13 @@ const Detail = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchPlantDetails = async () => {
-      const API_KEY = import.meta.env.VITE_PERENUAL_API_KEY;
-      if (!API_KEY) {
-        setError("API key is missing");
-        setLoading(false);
-        return;
-      }
-
-      try {
-        const response = await fetch(
-          `https://perenual.com/api/v2/species/details/${id}?key=${API_KEY}`
-        );
-        const data = await response.json();
-        setPlant(data);
-        console.log("Plant found:", data);
-      } catch (err) {
-        setError("Error fetching plant details: " + err.message);
-        console.error("Error:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPlantDetails();
+    const found = plantsData.find((p) => String(p.id) === String(id));
+    if (found) {
+      setPlant(found);
+    } else {
+      setError("Plant not found");
+    }
+    setLoading(false);
   }, [id]);
 
   if (loading) {
@@ -220,16 +204,15 @@ const Detail = () => {
                         <Text color="brand.50" fontSize="sm">{plant.watering}</Text>
                       </Box>
                     )}
-                  </Grid>
 
-                  {plant.sunlight &&
+                                      {plant.sunlight &&
                     Array.isArray(plant.sunlight) &&
                     plant.sunlight.length > 0 && (
                       <Box>
                         <Text color="brand.300" fontSize="xs" fontWeight="bold" textTransform="uppercase" mb={2}>
                           Sunlight
                         </Text>
-                        <Flex wrap="wrap" gap={2}>
+                        <Flex wrap="wrap" gap={2} alignItems="center" justifyContent="center">
                           {plant.sunlight.map((sun, idx) => (
                             <Badge
                               key={idx}
@@ -249,6 +232,8 @@ const Detail = () => {
                         </Flex>
                       </Box>
                     )}
+
+                  </Grid>
 
                   {plant.description && (
                     <Box>

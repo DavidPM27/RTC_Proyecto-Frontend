@@ -30,6 +30,35 @@ const PlantCard = (plant) => {
     onOpen();
   };
 
+  const calculateWateringStatus = () => {
+    if (!plant.stats?.lastWatered || !plant.stats?.wateringFrequency) {
+      return { percentage: 0, text: "Unknown" };
+    }
+
+    const lastWateredDate = new Date(plant.stats.lastWatered);
+    const now = new Date();
+    
+    // We get the difference in days gracefully
+    const diffTime = now - lastWateredDate;
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    
+    const freq = plant.stats.wateringFrequency;
+    let percentage = Math.max(0, Math.round(((freq - diffDays) / freq) * 100));
+    
+    let text = "";
+    if (diffDays >= freq) {
+      percentage = 0;
+      text = "Needs water today";
+    } else {
+      const daysLeft = freq - diffDays;
+      text = `In ${daysLeft} day${daysLeft > 1 ? 's' : ''}`;
+    }
+    
+    return { percentage, text };
+  };
+
+  const wateringStatus = calculateWateringStatus();
+
   return (
     <>
       <Card.Root
@@ -92,11 +121,11 @@ const PlantCard = (plant) => {
           <HStack mt={4} pb={4} spacing={2} borderBottom="1px solid" borderColor="brand.700">
             <Icon as={LuDroplets} boxSize={4} color="brand.500" />
             <Card.Description fontSize="xs" color="text.primary">
-              {plant.stats.wateringFrequency} %
+              {wateringStatus.percentage}%
             </Card.Description>
             <Icon as={LuCircle} boxSize={3} color="brandSecondary.500" />
             <Card.Description fontSize="xs" color="text.primary">
-              In today
+              {wateringStatus.text}
             </Card.Description>
           </HStack>
         </Card.Body>

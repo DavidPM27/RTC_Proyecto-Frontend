@@ -15,8 +15,8 @@ export const INITIAL_PLANTS = [
     imageUrl: monstera.default_image?.regular_url || "",
     category: monstera.type,
     stats: {
-      plantedAt: "2025-05-12",
-      lastWatered: "2026-01-01T10:00:00Z",
+      plantedAt: Date.now().toString(),
+      lastWatered: Date.now(),
       wateringFrequency: parseInt(monstera.watering_general_benchmark?.value) || 7,
     },
     requirements: {
@@ -32,8 +32,8 @@ export const INITIAL_PLANTS = [
     imageUrl: aloe.default_image?.regular_url || "",
     category: aloe.type,
     stats: {
-      plantedAt: "2025-08-20",
-      lastWatered: "2025-12-15T09:30:00Z",
+      plantedAt: Date.now().toString(),
+      lastWatered: Date.now() - 1000 * 60 * 60 * 24 * 2, // 2 days ago
       wateringFrequency: parseInt(aloe.watering_general_benchmark?.value) || 14,
     },
     requirements: {
@@ -49,8 +49,8 @@ export const INITIAL_PLANTS = [
     imageUrl: pothos.default_image?.regular_url || "",
     category: pothos.type,
     stats: {
-      plantedAt: "2025-12-01",
-      lastWatered: "2026-01-02T18:00:00Z",
+      plantedAt: Date.now().toString(),
+      lastWatered: Date.now() - 1000 * 60 * 60 * 24 * 5, // 4 days ago
       wateringFrequency: parseInt(pothos.watering_general_benchmark?.value) || 20,
     },
     requirements: {
@@ -66,8 +66,8 @@ export const INITIAL_PLANTS = [
     imageUrl: snakePlant.default_image?.regular_url || "",
     category: snakePlant.type,
     stats: {
-      plantedAt: "2024-01-10",
-      lastWatered: "2025-12-20T12:00:00Z",
+      plantedAt: Date.now().toString(),
+      lastWatered: Date.now() - 1000 * 60 * 60 * 24 * 10, // 10 days ago
       wateringFrequency: parseInt(snakePlant.watering_general_benchmark?.value) || 20,
     },
     requirements: {
